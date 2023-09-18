@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 *{
     margin: 0;
@@ -7,9 +7,10 @@
     list-style-type: none;
     font-weight: normal;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: #333;
     font-size: 1rem;
+    font-weight: 300;
 }
 
 body {
@@ -80,15 +81,18 @@ main {
 
 
 .nav-links a {
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 500;
     color: #333;
 }
 
 .nav-links a:hover {
-    color: #31aae2;
-    font-weight: bold;
-}
+    color: #9cfccf;
+    text-shadow:
+            1px 1px 0px #000, -1px -1px 0px #000,
+            -1px 1px 0px #000, 1px -1px 0px #000,
+            1px 0px 0px #000, -1px 0px 0px #000,
+            0px 1px 0px #000, 0px -1px 0px #000;
+    }
 
 
 
@@ -105,7 +109,7 @@ main {
     width: 95%;
     height: 68vh;
     margin: 0rem auto 1rem;
-    top: 7rem;
+    top: 8rem;
     position: relative;
     overflow: hidden;
 }
@@ -115,11 +119,10 @@ main {
     position: absolute;
     width: 100%;
     object-fit: contain;
-    
 }
 
 .fade-in-out {
-    animation: fadeInOut 5s ease-in-out infinite; /* アニメーションの持続時間を4秒に設定 */
+    animation: fadeInOut 5s ease-in-out infinite; 
     opacity: 0;
 }
 
@@ -161,6 +164,7 @@ main {
     padding: 10px;
     background-color: #F4F5F6;
     border-top: solid 0.5px #d8d8d8;
+    
 }
 
 .side-menu ul{
@@ -317,7 +321,6 @@ main {
 .features-container {
     margin-top: 7rem;
     padding: 0 2rem;
-    border-top: solid 0.5px #d8d8d8;
     margin-bottom: 2rem;
 }
 
@@ -347,7 +350,7 @@ main {
 
 
 .item img:hover{
-    filter: saturate(100%) drop-shadow(2px 2px 2px #9cfccf );    ;
+    filter: saturate(100%) drop-shadow(2px 2px 2px #9cfccf );    
     transform: rotateY(360deg);
 }
 
@@ -402,8 +405,7 @@ main {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 7rem;
-    padding: 4rem 2rem;
-    border-top: solid 0.5px #d8d8d8;
+    padding: 70px 2rem;
 }
 
 .contact-container h2 {
