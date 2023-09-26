@@ -148,7 +148,6 @@
             price: 'CAD: 66$',
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis vitae ea, facere commodi nam magni eos esse ullam dignissimos molestias! Repellat architecto necessitatibus voluptatibus libero facilis quos consequuntur minus maiores.'
         },
-        // 他の商品情報も追加
     ];
 
 
